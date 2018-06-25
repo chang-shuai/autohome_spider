@@ -59,6 +59,6 @@ class AutoHomeSpider(scrapy.Spider):
 
 if __name__ == '__main__':
 	spider = AutoHomeSpider()
-	res = spider.start_request()
+	res = spider.start_requests()
 	# print(res)
 	# print(len(res))
